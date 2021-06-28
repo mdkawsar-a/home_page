@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* header part css start */
+#header_1{
+  padding: 10px 0px;
+  border-bottom: 1px solid #ddd;
+}
+.container{
+  overflow:hidden;
+  width:90%;
+  margin: 0 auto;
+}
+.logo{
+width:10%;
+float:left;
+}
+.logo img{
+  width:100%;
+}
+.menu{
+  width:60%;
+  float:right;
+}
+.navber{
+  list-style:none;
+  float:right;
+}
+.navber li{
+  float:left;
+  margin-right: 30px;
+}
+.navber li:last-child{
+  margin-right:0px;
+}
+.navber li a{
+  display:inline-block;
+  text-decoration:none;
+  font-size:18px;
+  color:#777;
+  text-transform:capitalize;
+  font-family:Sans-Serif;
+  transition:0.3s;
+}
+.navber li a:hover{
+  color:#0085ff;
+}
+/* header part css start */
+/* baner part css start */
+#baner{
+  padding: 30px 0px;
+}
+.banerCnt{
+  overflow:hidden;
+  width:56%;
+  margin: 0 auto;
+}
+.banerCnt h2{
+  text-align:center;
+  font-family: Sans-Serif;
+  font-size:30px;
+  color:#333;
+  letter-spacing: 0.5;
+}
+.banerCnt strong{
+  text-align:center;
+  font-family: Sans-Serif;
+  font-size:29px;
+  color:#0085ff;
+  display: block;
+  letter-spacing: 0.5;
+  margin: 10px;
+}
+.banerCnt p{
+  text-align:center;
+  font-family: Sans-Serif;
+  font-size:14px;
+  letter-spacing: 0.5;
+  line-height: 20px;
+  color:#888;
+  margin-bottom:10px;
+}
+.banerImg{
+  width:250px;
+  margin: 0 auto;
+}
+/* baner part css end */
+/* project title part css start */
+#projectDec{
+  padding: 10px;
+}
+.Pwrapper{
+  overflow:hidden;
+  width:65%;
+  margin: 0 auto;
+}
+.projectpra{
+  overflow: hidden;
+  width:50%;
+  float: left;
+}
+.projectpra b{
+  text-align: right;
+  color:#ff5200;
+  display: block;
+  font-size: 25px;
+}
+.projectpra p{
+  text-align: right;
+  font-family: Sans-Serif;
+  font-size:14px;
+  letter-spacing: 0.5;
+  line-height: 18px;
+  color:#888;;
+}
+.projectTitle{
+  overflow: hidden;
+  width:40%;
+  float: left;
+}
+.projectTitle h1{
+  font-family: Sans-Serif;
+  letter-spacing: 0.5;
+  line-height: 34px;
+  font-size:25px;
+  font-weight: 700;
+  color:#333;
+  margin-left: 15px;
+}
+/* project title part css end */
+/* project items part css start */
+#project{
+  padding: 30px 0px;
+}
+.projectWrp{
+  overflow:hidden;
+}
+.singleP{
+  background: #ff000013;
+  width:27%;
+  padding: 40px 20px;
+  float: left;
+  margin-right:23px;
+}
+.singleP:last-child{
+  margin-right:0%;
+}
+.bcolor{
+  background:#00ccff1b;
+}
+.Primg1{
+ width:89% !important;
+ margin: 0 auto;
+}
+.dcolor{
+  background: #ffb60021;
+}
+.Primg2{
+ width:80% !important;
+ margin: 0 auto;
+}
+.singleP img{
+width:100%;
+}
+.singleP h4{
+  font-family: Sans-Serif;
+  letter-spacing: 0.5;
+  color:#333;
+  margin-top:6px;
+}
+.singleP p{
+  font-family: Sans-Serif;
+  font-size:14px;
+  letter-spacing: 0.5;
+  line-height: 19px;
+  color:#888;
+  margin-top:8px;
+}
+/* project items part css end */
+/* footer part */
+footer{
+  background: #0085ff;
+  padding: 15px;
+}
+footer p{
+  font-family: Sans-Serif;
+  font-size:14px;
+  letter-spacing: 0.5;
+  text-align: center;
+  color:#94d6e5da;
+}
+footer p span{
+  color:#fff;
+}
+/* footer part */
